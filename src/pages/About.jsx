@@ -43,7 +43,7 @@ const AboutSection = () => {
                 <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-center bg-[#F9F6F0] rounded-lg shadow-lg p-12">
                     <div className="w-full md:w-1/2 p-6">
                         <img
-                            src="/src/assets/image/product-image/product1.jpg"
+                            src="src/assets/image/product-image/product1.jpg"
                             alt="Illustration"
                             className="w-full h-auto"
                         />
