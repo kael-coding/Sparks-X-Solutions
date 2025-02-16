@@ -25,12 +25,13 @@ const Home = () => {
                 >
                     Eco-friendly, sustainable fire starters designed for a safer tomorrow and a greener planet
                 </p>
-                <button
+
+                <a href="/about"><button
                     className={`bg-orange-500 text-white px-6 py-2 mt-6 rounded-full hover:bg-orange-600 transition duration-300 transform ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
                         }`}
                 >
                     Get Started
-                </button>
+                </button></a>
             </div>
         </header>
     );

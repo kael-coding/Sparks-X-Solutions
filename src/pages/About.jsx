@@ -63,9 +63,9 @@ const AboutSection = () => {
                             partnership, or collaboration, your support can help propel IgniteX into a leader in sustainable firestarting solutions. Together, we can create a future where eco-friendly practices become the
                             standard. Let's schedule a meeting to discuss how we can achieve this vision together.
                         </p>
-                        <button className="bg-orange-500 text-white px-8 py-3 mt-6 rounded-full hover:bg-orange-600 transition duration-300">
+                        {/* <button className="bg-orange-500 text-white px-8 py-3 mt-6 rounded-full hover:bg-orange-600 transition duration-300">
                             Learn More
-                        </button>
+                        </button> */}
                     </div>
                 </div>
             </section>
