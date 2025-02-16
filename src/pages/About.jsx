@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import MissionVisionSection from './MissionVisionSection';
-
+import product1 from '../assets/image/product-image/product1.jpg';
 const AboutSection = () => {
     const [isVisible, setIsVisible] = useState(false);
     const [isAboutVisible, setIsAboutVisible] = useState(false);
@@ -43,7 +43,7 @@ const AboutSection = () => {
                 <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-center bg-[#F9F6F0] rounded-lg shadow-lg p-12">
                     <div className="w-full md:w-1/2 p-6">
                         <img
-                            src="src/assets/image/product-image/product1.jpg"
+                            src={product1}
                             alt="Illustration"
                             className="w-full h-auto"
                         />

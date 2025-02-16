@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import product2 from '../assets/image/product-image/product2.jpg';
 
 const Products = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -34,7 +35,7 @@ const Products = () => {
                                 <div className="flex flex-wrap items-center justify-center">
                                     <div className="w-full md:w-1/2 p-6">
                                         <img
-                                            src="src/assets/image/product-image/product2.jpg"
+                                            src={product2}
                                             alt="Illustration"
                                             className="w-full h-auto rounded-lg shadow-md"
                                         />
